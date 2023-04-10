@@ -1,0 +1,119 @@
+body {
+    background: #F9F6EE;
+    font-family: "Nunito", "Noto Sans Arabic", sans-serif;
+}
+
+section{
+    padding-top: 90px;
+}
+
+.content {
+    margin-bottom: 100px;
+}
+
+#about:lang(ar){
+    text-align: right;
+}
+
+.artwork-view {
+    background: #F9F6EE;
+    max-width: 95vw;
+}
+
+
+.painting {
+    max-height: 600px;
+    margin: 50px 0;
+    cursor: pointer;
+}
+
+#gallery-modal .modal-img{
+    max-height: fit-content;
+    width: auto;
+}
+
+#contactForm{
+    max-width: 500px;
+}
+
+.navbar{
+    font-size: 1.5rem;
+    font-weight: 100;
+    background: #fff3f1;
+}
+
+.navbar:lang(ar){
+    font-size: 1.5rem;
+    font-weight: 300;
+    background: #fff3f1;
+}
+
+
+#mainNavbar .nav-link {
+    color: black;
+}
+
+#mainNavbar .nav-link:hover {
+    color: #EA1C2C;
+}
+
+#mainNavbar .navbar-brand {
+    padding-left: 10px;
+    color: #EA1C2C;
+    font-size: 1.5rem;
+}
+
+
+
+#headingGroup {
+    color: #EA1C2C;
+}
+
+#headingGroup h1{
+    font-weight: 100;
+    font-size: 4rem;
+}
+
+#headingGroup h1:lang(ar){
+    font-weight: 300;
+    font-size: 4rem;
+}
+
+.carousel {
+    max-width: 95vw;
+}
+
+.carousel-indicators {
+    position: relative;
+    margin: 0;
+}
+.carousel-indicators [data-bs-target]{
+    height: 90px;
+    width: 90px;
+    margin: 0 5px;
+    background-size: cover;
+}
+
+
+.lang {
+    background-color: #F9F6EE;
+}
+
+@media (max-width: 1200px) {
+    #headingGroup h1 {
+        font-weight: 100;
+        font-size: 3rem;
+        padding-top: 20vh;
+        padding-bottom: 10vh;
+    }
+
+    #carousel {
+        max-width: 100vw;
+    }
+
+    #painting{
+        max-height: 600px;
+        max-width: 300px;
+        padding: 0 2px;
+    }
+}
